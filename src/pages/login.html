@@ -1,54 +1,86 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../output.css">
-    <title>Login</title>
+    <title>Login - Fazer Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../../dist/output.css">
+
 </head>
 
-<body>
-    <header class="flex items-center bg-red-600 justify-between">
-        <div class=" flex items-center min-w-40">
-            <div class="rounded-full w-15 h-15 container ">
-                <img src="./src/img/user.png" alt="foto de perfil do usuário" class="">
+<body class="min-h-screen bg-cover bg-center background-[url('../img/background.png')]">
+    <div class="content-wrapper">
+        <header class="flex items-center bg-red-600 justify-between px-6 py-4">
+            <div class="flex items-center min-w-40">
             </div>
-            <div>
-                <p>Fazer Login</p>
+            <div class="container flex justify-end">
+                <button class="flex items-center justify-center bg-gray-200 rounded-full min-w-40 px-4 py-2">
+                    <p>Ou crie sua conta</p>
+                </button>
+                <button class="mx-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <div class="flex items-center justify-center min-h-[calc(100vh-120px)]">
+            <div class="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-sm mx-4">
+                <form class="space-y-5">
+
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-800 mb-2">
+                            Email
+                        </label>
+                        <input
+                            id="email"
+                            type="email"
+                            placeholder="Insira seu email"
+                            class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-300 focus:border-transparent transition-all text-sm"
+                            required
+                        />
+                    </div>
+                    <div>
+                        <label for="password" class="block text-sm font-medium text-gray-800 mb-2">
+                            Senha
+                        </label>
+                        <input
+                            id="password"
+                            type="password"
+                            placeholder="Insira sua senha"
+                            class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-300 focus:border-transparent transition-all text-sm"
+                            required
+                        />
+                    </div>
+                    <button
+                        type="submit"
+                        class="w-full bg-gray-900 text-white font-medium py-3 rounded-lg hover:bg-gray-800 transition-all shadow-md hover:shadow-lg"
+                    >
+                        Entrar
+                    </button>
+                </form>
             </div>
         </div>
-        <div class="container flex justify-end">
-            <button class="flex items-center justify-center bg-gray-200 rounded-full min-w-40">
-                <p>Ou crie sua conta</p>
-            </button>
-            <button class="mx-5">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        <footer class="fixed bottom-0 left-0 right-0 flex justify-between items-center px-6 py-3 text-xs text-gray-700 bg-transparent">
+            <div class="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
                 </svg>
-            </button>
-        </div>
-    </header>
-
-    <main class="flex items-center justify-center min-h-screen bg-gray-100">
-        <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
-            <h2 class="text-2xl font-bold text-center mb-6">Entrar na sua conta</h2>
-            <form>
-                <div class="mb-4">
-                    <label for="email" class="block text-gray-700 text-sm font-bold mb-2">E-mail</label>
-                    <input type="email" id="email" name="email" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-600" required>
-                </div>
-                <div class="mb-6">
-                    <label for="password" class="block text-gray-700 text-sm font-bold mb-2">Senha</label>
-                    <input type="password" id="password" name="password" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-600" required>
-                </div>
-                <button type="submit" class="w-full bg-red-600 text-white py-2 px-4 rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-600">Entrar</button>
-            </form>
-            <p class="text-center text-gray-600 mt-4">Não tem uma conta? <a href="#" class="text-red-600 hover:underline">Cadastre-se</a></p>
-        </div>
-    </main>
-
+                <span>Contato: 12345-6788</span>
+            </div>
+            
+            <div class="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M12 6v6l4 2"/>
+                </svg>
+                <span>Todos os direitos reservados</span>
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>

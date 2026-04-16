@@ -9,7 +9,10 @@
       "Courier New", monospace;
     --color-red-600: oklch(57.7% 0.245 27.325);
 <<<<<<< HEAD
+<<<<<<< HEAD
     --color-amber-400: oklch(82.8% 0.189 84.429);
+=======
+>>>>>>> 591919171a35ecb36d95c65d0d94d5ab3ce9608f
 =======
 >>>>>>> 591919171a35ecb36d95c65d0d94d5ab3ce9608f
     --color-blue-400: oklch(70.7% 0.165 254.624);
@@ -297,12 +300,15 @@
     min-height: 100vh;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   .w-1 {
     width: calc(var(--spacing) * 1);
   }
   .w-1\/2 {
     width: calc(1 / 2 * 100%);
 =======
+=======
+>>>>>>> 591919171a35ecb36d95c65d0d94d5ab3ce9608f
   .w-1\/5 {
     width: calc(1 / 5 * 100%);
 >>>>>>> 591919171a35ecb36d95c65d0d94d5ab3ce9608f
@@ -404,12 +410,15 @@
     min-width: calc(var(--spacing) * 40);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   .min-w-44 {
     min-width: calc(var(--spacing) * 44);
   }
   .min-w-55 {
     min-width: calc(var(--spacing) * 55);
   }
+=======
+>>>>>>> 591919171a35ecb36d95c65d0d94d5ab3ce9608f
 =======
 >>>>>>> 591919171a35ecb36d95c65d0d94d5ab3ce9608f
   .min-w-55\.25 {
@@ -479,9 +488,12 @@
     background-color: #FFE500;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   .bg-\[url\] {
     background-color: url;
   }
+=======
+>>>>>>> 591919171a35ecb36d95c65d0d94d5ab3ce9608f
 =======
 >>>>>>> 591919171a35ecb36d95c65d0d94d5ab3ce9608f
   .bg-gray-50 {

@@ -8,13 +8,6 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-600: oklch(57.7% 0.245 27.325);
-<<<<<<< HEAD
-<<<<<<< HEAD
-    --color-amber-400: oklch(82.8% 0.189 84.429);
-=======
->>>>>>> 591919171a35ecb36d95c65d0d94d5ab3ce9608f
-=======
->>>>>>> 591919171a35ecb36d95c65d0d94d5ab3ce9608f
     --color-blue-400: oklch(70.7% 0.165 254.624);
     --color-gray-50: oklch(98.5% 0.002 247.839);
     --color-gray-200: oklch(92.8% 0.006 264.531);
@@ -263,55 +256,20 @@
   .h-15 {
     height: calc(var(--spacing) * 15);
   }
-  .h-20 {
-    height: calc(var(--spacing) * 20);
-  }
-  .h-\[30px\] {
-    height: 30px;
-  }
   .h-full {
     height: 100%;
   }
   .max-h-66 {
     max-height: calc(var(--spacing) * 66);
   }
-  .min-h-10 {
-    min-height: calc(var(--spacing) * 10);
-  }
-  .min-h-16 {
-    min-height: calc(var(--spacing) * 16);
-  }
-  .min-h-20 {
-    min-height: calc(var(--spacing) * 20);
-  }
-  .min-h-24 {
-    min-height: calc(var(--spacing) * 24);
-  }
-  .min-h-44 {
-    min-height: calc(var(--spacing) * 44);
-  }
   .min-h-\[calc\(100vh-120px\)\] {
     min-height: calc(100vh - 120px);
-  }
-  .min-h-\[w\] {
-    min-height: w;
   }
   .min-h-screen {
     min-height: 100vh;
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1 / 2 * 100%);
-=======
-=======
->>>>>>> 591919171a35ecb36d95c65d0d94d5ab3ce9608f
-  .w-1\/5 {
-    width: calc(1 / 5 * 100%);
->>>>>>> 591919171a35ecb36d95c65d0d94d5ab3ce9608f
   }
   .w-4 {
     width: calc(var(--spacing) * 4);
@@ -319,113 +277,20 @@
   .w-15 {
     width: calc(var(--spacing) * 15);
   }
-  .w-20 {
-    width: calc(var(--spacing) * 20);
-  }
-  .w-39 {
-    width: calc(var(--spacing) * 39);
-  }
-  .w-40 {
-    width: calc(var(--spacing) * 40);
-  }
-  .w-44 {
-    width: calc(var(--spacing) * 44);
-  }
   .w-52 {
     width: calc(var(--spacing) * 52);
-  }
-  .w-\[0px\] {
-    width: 0px;
-  }
-  .w-\[40px\] {
-    width: 40px;
-  }
-  .w-\[50px\] {
-    width: 50px;
-  }
-  .w-\[60px\] {
-    width: 60px;
-  }
-  .w-\[80px\] {
-    width: 80px;
-  }
-  .w-\[89px\] {
-    width: 89px;
-  }
-  .w-\[90px\] {
-    width: 90px;
-  }
-  .w-\[100px\] {
-    width: 100px;
-  }
-  .w-\[150px\] {
-    width: 150px;
-  }
-  .w-\[170px\] {
-    width: 170px;
-  }
-  .w-\[180px\] {
-    width: 180px;
-  }
-  .w-\[190px\] {
-    width: 190px;
-  }
-  .w-\[200px\] {
-    width: 200px;
-  }
-  .w-\[230px\] {
-    width: 230px;
-  }
-  .w-\[900px\] {
-    width: 900px;
   }
   .w-full {
     width: 100%;
   }
-  .max-w-40 {
-    max-width: calc(var(--spacing) * 40);
-  }
   .max-w-sm {
     max-width: var(--container-sm);
-  }
-  .min-w-1 {
-    min-width: calc(var(--spacing) * 1);
-  }
-  .min-w-2 {
-    min-width: calc(var(--spacing) * 2);
-  }
-  .min-w-10 {
-    min-width: calc(var(--spacing) * 10);
-  }
-  .min-w-16 {
-    min-width: calc(var(--spacing) * 16);
-  }
-  .min-w-20 {
-    min-width: calc(var(--spacing) * 20);
-  }
-  .min-w-24 {
-    min-width: calc(var(--spacing) * 24);
   }
   .min-w-40 {
     min-width: calc(var(--spacing) * 40);
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
-  .min-w-44 {
-    min-width: calc(var(--spacing) * 44);
-  }
-  .min-w-55 {
-    min-width: calc(var(--spacing) * 55);
-  }
-=======
->>>>>>> 591919171a35ecb36d95c65d0d94d5ab3ce9608f
-=======
->>>>>>> 591919171a35ecb36d95c65d0d94d5ab3ce9608f
   .min-w-55\.25 {
     min-width: calc(var(--spacing) * 55.25);
-  }
-  .min-w-100 {
-    min-width: calc(var(--spacing) * 100);
   }
   .min-w-screen {
     min-width: 100vw;
@@ -487,15 +352,6 @@
   .bg-\[\#FFE500\] {
     background-color: #FFE500;
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
-  .bg-\[url\] {
-    background-color: url;
-  }
-=======
->>>>>>> 591919171a35ecb36d95c65d0d94d5ab3ce9608f
-=======
->>>>>>> 591919171a35ecb36d95c65d0d94d5ab3ce9608f
   .bg-gray-50 {
     background-color: var(--color-gray-50);
   }
@@ -514,14 +370,8 @@
   .bg-white {
     background-color: var(--color-white);
   }
-  .bg-\[url\(\)\] {
-    background-image: url();
-  }
   .bg-\[url\(\/src\/img\/background\.png\)\] {
     background-image: url(/src/img/background.png);
-  }
-  .bg-\[url\(\/src\/img\/coca\.png\)\] {
-    background-image: url(/src/img/coca.png);
   }
   .bg-\[url\(\/src\/img\/oferta\.png\)\] {
     background-image: url(/src/img/oferta.png);
